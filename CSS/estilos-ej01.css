@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Rubik&display=swap');
+h3 {
+font-family: 'Festive', cursive;
+font-size: 30px
+}
+/* se puede aplicar a varios elementos*/
+h5,p,a{
+font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+  font-size: 18px
+}
+body{
+  background-image: url(../img/fondo_firma.jpg);
+}
+.firma-cuerpo{
+  color: white;
+  width: 60% ;
+  background-color: black;
+  margin: 0px auto;
+  border: white solid;
+  padding: 15px;
+}
+.nombre{
+  text-align: center;
+}
+.img{
+  display:block;
+  margin: auto;
+  width: 300px;
+}

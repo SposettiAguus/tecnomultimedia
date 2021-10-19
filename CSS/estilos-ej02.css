@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Rubik&display=swap');
+body {
+  background-image: url(../img/fondo_principal.jpg);
+}
+h3 {
+font-family: 'Festive', cursive;
+font-size: 24px
+}
+/* se puede aplicar a varios elementos*/
+h5,p,a{
+font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+  font-size: 18px
+}
+/* SELECTORES PERSONALIZADOS */
+.contenedor{
+  width: 600px ;
+  background-color: black;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid red;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+}
+.img{
+  width: 100%;
+  height: auto;
+  display:block;
+  margin: auto;
+  width: 400px;
+}
+.borde-foto{
+  border: 2px solid red;
+  border-radius: 100px;
+}

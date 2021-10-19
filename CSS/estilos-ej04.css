@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Festive&family=Rubik&display=swap');
+h4 {
+font-family: 'Festive', cursive;
+font-size: 24px
+}
+p{
+font-family: 'Rubik', sans-serif;
+}
+body{
+  background-image: url(../img/peliculas_fondo.jpg);
+}
+.marco{
+  margin: 0 auto;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid red;
+  overflow: hidden;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.col1{
+  padding: 5px;
+  text-align: center;
+  border-right: 1px solid red;
+}
+.col2{
+  padding: 5px;
+  text-align:center;
+  border-right: 1px solid red;
+}
+.col3{
+  padding: 5px;
+  text-align: center;
+}
+.img-adaptable{
+  width: 100%;
+  height: auto;
+}
+.img-centrada{
+  display:block;
+  margin: auto;
+  width: 200px;
+}
+.parrafos{
+  text-align: left;
+}

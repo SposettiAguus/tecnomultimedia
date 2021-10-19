@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Lobster&display=swap');
+body, h1,h4 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(../img/arbol.jpg);
+}
+h1,h3 {
+font-family: 'Festive', cursive;
+font-size: 24px
+}
+h4{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px
+}
+/* se puede aplicar a varios elementos*/
+h5,p,a,ul, li{
+font-family: 'Rubik', sans-serif;
+}
+
+/* SELECTORES PERSONALIZADOS */
+.contenedor{
+  width: 600px ;
+  background-color: white;
+  margin: 0px auto;
+}
+.cabeza{
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+.cuerpo{
+  padding: 20px;
+}
+.pie{
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+.img-portada{
+  color: white;
+  background-image: url(../img/Harry_Potter.jpg);
+  height: 60%;
+  padding: 50px 300px 50px 20px;
+  font-size: 20px;
+}
+.vinculo{
+  color: yellow;
+}
+.vinculo:hover{
+  color: white;
+  text-decoration: none;
+}
+.marco-video{
+  background-color: black;
+  padding: 20px, auto;
+  display:block;
+  margin: auto;
+  text-align: center;
+}
+.borde-foto{
+  border: 2px solid red;
+  border-radius: 100px;
+  display:block;
+  margin: auto;
+  width: 300px;
+}
+.item-m{
+  display: inline-block;
+  padding: 10px;
+}
+.menu{
+  background-color: #CCCCCC;
+}
