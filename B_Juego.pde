@@ -85,14 +85,14 @@ class Juego {
   }
   void reiniciarJuego() { //reiniciar juego al perder y ganar
     if (estado.equals("Finalizado")&&key==' ') {
-      estado="portada"; //vuelve a la portada
-      contadorHeridas=0;  //se pone en 0 las heridas y las vidas
+       contadorHeridas=0;  //se pone en 0 las heridas y las vidas
       contadorVidas=0;
+      estado="portada"; //vuelve a la portada
     }
     if (estado.equals("P1")&&key==' '){
-     estado="portada";
      contadorHeridas=0;  //se pone en 0 las heridas y las vidas
       contadorVidas=0;
+      estado="portada";
     }
   }
 }
