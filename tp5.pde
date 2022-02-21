@@ -1,4 +1,3 @@
-// https://youtu.be/izKVSgkXDo8
 Juego juego;
 void setup() {
   size(800, 600);
@@ -8,6 +7,5 @@ void draw() {
  juego.dibujarTodo();
 }
 void keyPressed() {
-  
   juego.presionar();
 }
